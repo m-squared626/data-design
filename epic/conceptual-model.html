@@ -17,30 +17,27 @@
 					</ul>
 				<p><strong>Article:</strong></p>
 					<ul>
+							<li>articleId (Primary Key)</li>
 							<li>articleAuthor</li>
 							<li>articleCategory</li>
 							<li>articleDate</li>
+							<li>articleHash</li>
 							<li>articleProvider</li>
 							<li>articleSubject</li>
 							<li>articleTitle</li>
 					</ul>
 			<p><strong>Category:</strong></p>
 			<ul>
-					<li>articleAuthor</li>
-					<li>articleCategory</li>
-					<li>articleDate</li>
-					<li>articleProvider</li>
-					<li>articleSubject</li>
-					<li>articleTitle</li>
+					<li>categoryId (Primary Key)</li>
+					<li>categoryProvider</li>
+					<li>categorySubject</li>
+					<li>categoryTitle</li>
 			</ul>
 			<p><strong>Article Category:</strong></p>
 			<ul>
-					<li>articleAuthor</li>
-					<li>articleCategory</li>
-					<li>articleDate (Foreign Key)</li>
-					<li>articleProvider</li>
-					<li>articleSubject</li>
-					<li>articleTitle (Foreign Key)</li>
+					<li>articleCategoryId (Primary Key)</li>
+					<li>articleCategoryProvider</li>
+					<li>articleCategorySubject</li>
 			</ul>
 
 			<br>
