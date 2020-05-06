@@ -20,7 +20,7 @@ CREATE TABLE user(
     userEmail binary(32)not null,
     userHash binary(32)not null,
     userPhoneNum numeric(16)not null
-  primary key (userId)
+    primary key (userId)
 );
 
 CREATE TABLE category(
