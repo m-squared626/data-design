@@ -4,7 +4,7 @@ DROP TABLE IF EXISTS category
 DROP TABLE IF EXISTS user
 
 CREATE TABLE article (
-    articleId(16) not null,
+    articleId(16)not null,
     articleAuthor(32) not null,
     articleCategory(32) not null,
     articleDate
