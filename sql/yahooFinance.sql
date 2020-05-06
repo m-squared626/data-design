@@ -12,6 +12,7 @@ CREATE TABLE article (
     articleProvider(32) not null,
     articleSubject(32) not null,
     articleTitle(32) not null,
+    primary key (articleId)
 )
 
 CREATE TABLE category(
@@ -20,11 +21,13 @@ CREATE TABLE category(
     categoryProvider(32) not null,
     categorySubject(32) not null,
     categoryTitle(32) not null,
+    primary key(categoryId)
 )
 
 CREATE TABLE articleCategory(
     articleCategoryId(16) not null,
     articleCategoryProvider(32) not null,
     articleSubject(32) not null,
+    primary key(articleCategoryId)
 )
 
